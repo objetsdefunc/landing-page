@@ -9,7 +9,7 @@ html {
    font-size: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
    html {
       font-size: 9px;
    }
@@ -23,6 +23,7 @@ body {
    background-size: cover;
    text-align: center;
    padding: 1%;
+   font-size: 1.6rem;
 }
 
 .flex-column {
@@ -32,20 +33,17 @@ body {
 }
 
 .flex-column-item {
-   align-items: center;
    flex: 1 0 auto;
 }
 
 header {
    color: #333;
-   font-size: 1.5rem;
 }
 
    header a {
       color: #B4D2D9;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 1.3rem;
    }
 
    header .highlight {
@@ -67,27 +65,26 @@ header {
 }
 
 main {
-   font-size: 1.3rem;
+   margin-bottom: 10%;
 }
 
    main p {
       margin: 2%;
+      font-size: 3.5rem;
    }
 
 footer {
    align-items: center;
    color: #333;
+   font-size: 1rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
    .flex-row {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-   }
-
-   .flex-row-item {
    }
 }
