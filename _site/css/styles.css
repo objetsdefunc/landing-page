@@ -1,12 +1,20 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     line-height: 1.5;
     background-color: #eee;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -22,7 +30,7 @@ header {
         color: #d63c3c;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     header li {
@@ -42,7 +50,7 @@ header {
 
 
 #contact img {
-    width: 90px;
+    width: 100px;
     border-radius: 50%;
     border-color: #333;
     border-width: 2px;
@@ -54,7 +62,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 footer {
