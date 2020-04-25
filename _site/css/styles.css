@@ -1,73 +1,71 @@
 html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+   height: 100%;
+   margin: 0;
+   padding: 0;
 }
 
 body {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    background-color: #eee;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+   font-family: sans-serif;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 0;
+   padding: 0;
+   background: #eee url('../images/water.jpg') no-repeat center center fixed;
+   background-size: cover;
 }
-
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: #333;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   color: #333;
 }
 
-    header a {
-        color: #d63c3c;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 1.6rem;
-    }
+   header a {
+      color: #B4D2D9;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+   }
 
-    header li {
-        display: inline;
-    }
+   header li {
+      display: inline;
+   }
 
+   header .highlight {
+      color: #51818C;
+      font-weight: bold;
+   }
 
-    header .highlight {
-        color: #d63c3c;
-        font-weight: bold;
-    }
-
-    header a:hover {
-        color: #735851;
-        font-weight: bold;
-    }
-
+   header a:hover {
+      color: #035159;
+      font-weight: bold;
+   }
 
 #contact img {
-    width: 100px;
-    border-radius: 50%;
-    border-color: #333;
-    border-width: 2px;
-    border-style: solid;
+   width: 100px;
+   border-radius: 50%;
+   border-color: #333;
+   border-width: 2px;
+   border-style: solid;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex: 1 1 auto;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #333;
 }
