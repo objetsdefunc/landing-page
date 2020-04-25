@@ -18,7 +18,7 @@ html {
 
 h1 {
    font-size: 3rem;
-   font-weight: bold;
+   font-weight: normal;
    margin: 0;
    padding: 0;
 }
@@ -50,7 +50,7 @@ h2 {
 
 .branding-highlight {
    color: #51818C;
-   font-weight: normal;
+   font-weight: bold;
 }
 
 .menu {
@@ -64,7 +64,7 @@ h2 {
    font-weight: normal;
    text-decoration: none;
    text-transform: uppercase;
-   margin: 3rem 0 0 0;
+   margin: 2rem 0 0 0;
 }
 
    .menu a:hover {
