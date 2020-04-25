@@ -12,24 +12,27 @@ body {
    font-family: sans-serif;
    font-size: 10px;
    line-height: 1.5;
-   display: flex;
    height: 100%;
-   flex-direction: column;
-   justify-content: space-between;
    background: #eee url('../images/water.jpg') no-repeat center center fixed;
    background-size: cover;
    text-align: center;
    padding: 1%;
 }
 
-header {
+.flex-column {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: space-between;
+}
+
+.flex-column-item {
    align-items: center;
+   flex: 1 0 auto;
+}
+
+header {
    color: #333;
    font-size: 1.5rem;
-   flex-wrap: wrap;
 }
 
    header a {
@@ -58,11 +61,6 @@ header {
 }
 
 main {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   flex: 1 0 auto;
    font-size: 1.3rem;
 }
 
@@ -71,8 +69,19 @@ main {
    }
 
 footer {
-   display: flex;
-   justify-content: center;
    align-items: center;
    color: #333;
+}
+
+@media (min-width: 800px) {
+   .flex-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .flex-row-item {
+   }
 }
