@@ -49,6 +49,7 @@ html {
    display: inline-block;
    /*display: flex;*/
    /*flex-direction: column;*/
+   margin: 0 0 10vh 0;
 }
 
    .menu a {
@@ -94,7 +95,7 @@ html {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   margin: 0 0 10vh 0;
+   margin: 0 0 20vh 0;
 }
 
 .blurb {
