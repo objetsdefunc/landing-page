@@ -10,7 +10,7 @@ html {
    height: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) { /* When very narrow...*/
    html {
       font-size: 9px;
    }
@@ -58,21 +58,21 @@ h2 {
    flex-direction: column;
 }
 
-.menu a {
-   color: #B4D2D9;
-   font-size: 1.7rem;
-   font-weight: normal;
-   text-decoration: none;
-   text-transform: uppercase;
-   margin: 2rem 0 0 0;
-}
-
-   .menu a:hover {
-      color: #035159;
-      font-weight: bold;
+   .menu a {
+      color: #B4D2D9;
+      font-size: 1.7rem;
+      font-weight: normal;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin: 2rem 0 0 0;
    }
 
-@media (min-width: 600px) {
+      .menu a:hover {
+         color: #035159;
+         font-weight: bold;
+      }
+
+@media (min-width: 500px) { /* When wide enough... */
    .branding-and-menu {
       align-items: center;
       display: flex;
