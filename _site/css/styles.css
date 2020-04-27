@@ -11,12 +11,6 @@ html {
    height: 100%;
 }
 
-/*@media (max-width: 320px) { When very narrow...
-   html {
-      font-size: 9px;
-   }
-}*/
-
 .page {
    background: #eee url('../images/water.jpg') no-repeat center center fixed;
    background-size: cover;
@@ -47,14 +41,12 @@ html {
 
 .menu {
    display: inline-block;
-   /*display: flex;*/
-   /*flex-direction: column;*/
    margin: 0 0 5vh 0;
 }
 
    .menu a {
       border-color: #B4D2D9;
-      border-radius: 10%;
+      border-radius: 5%;
       border-style: solid;
       border-width: 1px;
       color: #035159;
@@ -70,26 +62,6 @@ html {
       .menu a:hover {
          color: #035159;
       }
-
-/*@media (min-width: 500px) { When wide enough...
-   .branding-and-menu {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-   }
-
-   .menu {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-   }
-
-      .menu a {
-         margin: 0 0 0 2rem;
-      }
-}*/
 
 .central-part {
    display: flex;
@@ -108,13 +80,48 @@ html {
    border-radius: 50%;
    border-style: solid;
    border-width: 2px;
-   height: 80px;
-   width: 80px;
+   height: 20vmin;
+   width: 20vmin;
 }
 
 .contact i {
-   /*align-items: center;*/
    color: #888;
    font-size: 2rem;
    margin: 0 5vw 5vh;
+}
+
+@media (min-width: 500px) { /* Landscape phone or wider...*/
+   .branding-and-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 5vw;
+   }
+
+   .menu {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+   }
+
+      .menu a {
+         border-style: none;
+         margin: 0;
+      }
+
+   .contact i {
+      margin: 0 3vw 3vh;
+   }
+}
+
+@media (min-width: 768px) { /* Tablet or wider...*/
+   html {
+      font-size: 12px;
+   }
+
+   .contact i {
+      margin: 0 2vw 2vh;
+   }
 }
